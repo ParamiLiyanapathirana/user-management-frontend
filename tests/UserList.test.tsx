@@ -1,7 +1,8 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import UserList from './UserList';
-import { fetchUsers } from '../services/api';
+import UserList from './users';
+
+import { fetchUsers} from 'src/services/api.ts'; 
 
 jest.mock('../services/api');
 
